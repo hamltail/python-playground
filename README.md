@@ -25,3 +25,12 @@ source venv/bin/activate
 
 # ライブラリをインストール
 pip install -r requirements.txt
+```
+
+## 🚀 実行方法（Locust）
+
+以下のコマンドでLocustを起動
+
+```bash
+locust -f locustfile.py --host=https://httpbin.org
+```
